@@ -21,9 +21,42 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Waveshare_10_JD9365.ino" />
+    <ClCompile Include="display\display_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display\gt911.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display\i2c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display\Panel_JD9365.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display\touch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.Waveshare_10_JD9365.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display\display_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display\gt911.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display\i2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display\Panel_JD9365.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display\touch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display\Waveshare10.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
